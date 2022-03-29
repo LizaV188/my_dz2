@@ -101,7 +101,7 @@ print ('Факториал числа', NN, '=', FactTree(NN))
 print('\nЗадача 5')
 while True:
     nnn = input('Введите число: ')
-    if nnn.isdigit():
+    if nnn.isnumeric():
         for i in list(nnn):
             print(i)
         break
