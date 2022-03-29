@@ -10,7 +10,7 @@
 
 print('Задача 1')
 str1 = '0'*4
-for i in range(4):
+for i in range(5):
     print (i, str1)
 
 
